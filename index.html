@@ -10,6 +10,7 @@
     <nav id="navbar" class="bg-blue-700">
       <h1 class="text-center p-4 text-3xl text-white">Recipe Book App</h1>
     </nav>
+    
     <div class="container mx-auto mt-12">
       <div class="flex flex-wrap justify-center">
         <div class="w-full max-w-sm rounded overflow-hidden shadow-lg bg-white mt-4 sm:w-1/2 lg:w-1/3 lg:mr-6">
@@ -52,6 +53,22 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal Box -->
+<div id="myModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+  <div class="bg-white rounded-lg overflow-hidden shadow-lg max-w-md w-full p-6">
+    <div class="flex justify-between items-center border-b pb-2">
+      <h2 class="text-xl font-bold">Detail Nasi Goreng</h2>
+      <span class="cursor-pointer text-gray-600 hover:text-gray-900" id="closeModal">&times;</span>
+    </div>
+    <div class="mt-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, dolorum!</p>
+    </div>
+    <div class="mt-4 text-right">
+      <button class="bg-blue-500 text-white rounded-lg px-4 py-2" id="closeModalButton">Close</button>
+    </div>
+  </div>
+</div>
   <script src="./src/js/app.js"></script>
 </body>
 </html>
