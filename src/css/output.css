@@ -788,8 +788,18 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:w-1\/2 {
     width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
   }
 }
 
@@ -800,6 +810,10 @@ video {
 
   .lg\:mr-6 {
     margin-right: 1.5rem;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:w-1\/3 {
